@@ -18,7 +18,7 @@ public class TextSearchInGrid {
 		ArrayList<String> searchCoordinatesList = new ArrayList<>();
 		
 		
-		for(int i=0; i < gridLength; i++) {
+		 for(int i=0; i < gridLength; i++) {
 		   
      	   char[] temp = gridList.get(i).replaceAll("[\\s,]","").toCharArray();
      	   grid[i] = temp;
